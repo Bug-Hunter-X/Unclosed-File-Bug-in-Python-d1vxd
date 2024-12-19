@@ -1,0 +1,1 @@
+This repository demonstrates a common but easily overlooked bug in Python: unclosed files.  The `bug.py` file shows the erroneous code, which fails to close a file after opening it.  The `bugSolution.py` file provides a corrected version using a `with` statement for proper file handling.  This ensures that the file is always closed automatically, even if errors occur.
